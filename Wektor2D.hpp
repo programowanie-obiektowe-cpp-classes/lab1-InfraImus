@@ -10,6 +10,8 @@
 
 class Wektor2D
 {
+public:
+	
 	Wektor2D(double x_init, double y_init)
 	{
 		x = x_init;
@@ -31,12 +33,15 @@ class Wektor2D
 		print();
 	}
 	
+private:
+	
 	double x;
 	double y;
 	
 	//Informer info;
 	
 public:
+	
 	void setX(double val) { x = val; }
 	void setY(double val) { y = val; }
 	double getX() { return x; }
